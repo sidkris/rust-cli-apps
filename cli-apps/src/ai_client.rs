@@ -44,7 +44,6 @@ pub async fn ask_gpt(prompt: &str) -> Result<String, Box<dyn std::error::Error>>
         .send()
         .await?;
 
-    
     let status = res.status();
     let text = res.text().await?;
 

@@ -12,8 +12,8 @@ async fn main() {
                 }
                 println!("{input}");
                 match ai_client::ask_gpt(&input).await {
-                Ok(response) => println!("AI Response : {response}"),
-                Err(e) => println!("AI Response Error : {e}"),
+                    Ok(response) => println!("AI Response : {response}"),
+                    Err(e) => println!("AI Response Error : {e}"),
                 }
             }
             Err(error) => {

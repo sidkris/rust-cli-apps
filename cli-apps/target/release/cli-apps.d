@@ -1,0 +1,1 @@
+C:\Users\sidkr\Documents\GitHub\rust-cli-apps\cli-apps\target\release\cli-apps.exe: C:\Users\sidkr\Documents\GitHub\rust-cli-apps\cli-apps\src\ai_client.rs C:\Users\sidkr\Documents\GitHub\rust-cli-apps\cli-apps\src\main.rs
